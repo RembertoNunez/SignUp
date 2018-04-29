@@ -10,7 +10,6 @@
                 return false;
             }
         </script>
-        
         <script>
             $(document).ready( function(){
                 $("#user").change(function()
@@ -74,9 +73,7 @@
                 });
                 
                 $("#zipCode").change( function(){  
-                    
                     // alert( $("#zipCode").val() );  
-                    
                     $.ajax({
                         type: "GET",
                         url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
@@ -158,6 +155,5 @@
                  <legend></legend>
             </fieldset>
         </form>
-    
     </body>
 </html>
