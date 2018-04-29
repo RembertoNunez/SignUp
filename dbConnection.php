@@ -1,9 +1,10 @@
 <?php
+// mysql://bd152829e29d21:f75d67d5@us-cdbr-iron-east-05.cleardb.net/heroku_3c6c55000c1ac8a?reconnect=true
 function connectToDB($dbName) {
-    $host = 'localhost';
+    $host = 'us-cdbr-iron-east-05.cleardb.net';
     $db   =  $dbName;
-    $user = 'root';
-    $pass = '';
+    $user = 'bd152829e29d21';
+    $pass = 'f75d67d5';
     $charset = 'utf8mb4';
     
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
